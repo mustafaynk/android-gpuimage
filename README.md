@@ -14,13 +14,13 @@ Goal is to have something as similar to GPUImage as possible. Vertex and fragmen
 
 ### Gradle dependency
 
-```groovy
+```gradle
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'jp.co.cyberagent.android:gpuimage:2.x.x'
+    implementation 'com.github.mustafaynk:android-gpuimage:v2.0.4'
 }
 ```
 
