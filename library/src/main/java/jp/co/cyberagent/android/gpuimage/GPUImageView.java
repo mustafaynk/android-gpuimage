@@ -420,6 +420,14 @@ public class GPUImageView extends FrameLayout {
     }
 
     /**
+     * Get current bitmap. Added for multiple choose filter.
+     *
+     * */
+    public Bitmap getBitmap() {
+        return gpuImage.getImage();
+    }
+
+    /**
      * Pauses the Surface.
      */
     public void onPause() {

@@ -228,6 +228,14 @@ public class GPUImage {
     }
 
     /**
+     * Gets the image on which the filter should be applied.
+     *
+     */
+    public Bitmap getImage() {
+        return currentBitmap;
+    }
+
+    /**
      * Update camera preview frame with YUV format data.
      *
      * @param data   Camera preview YUV data for frame.
